@@ -9,9 +9,7 @@ export default function Login() {
 
   const handelSubmit = (event: { preventDefault: () => void; })=>{
     event.preventDefault();
-    
     authUser(ref.current?.value)
-
     router.push(`/login-progress`);
 
   }
