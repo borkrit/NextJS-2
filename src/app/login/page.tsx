@@ -1,7 +1,7 @@
 "use client"
 import { useRouter } from "next/navigation";
 import { useRef } from "react";
-import {authUser} from '@/app/acrion'
+import {authUser} from '@/app/action'
 
 export default function Login() {
   const router = useRouter()
